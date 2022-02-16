@@ -137,7 +137,7 @@ div > a >  img {
 
 .notImg {
     padding-bottom: 58px;
-    height: 101vw;
+    height: 101vw !important;
 }
 
 .carousel-indicators .active {
@@ -146,4 +146,8 @@ div > a >  img {
 
 .carousel-indicators li {
     border: 1px solid black !important;
+}
+
+.carousel-indicators {
+    bottom: 60px !important;
 }
