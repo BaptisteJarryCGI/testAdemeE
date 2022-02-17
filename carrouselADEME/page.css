@@ -30,10 +30,12 @@ h3 {
 
 .h3-first {
     margin-bottom: 0;
+    margin-top: 7px;
 }
 
 .h3-second {
     margin-top: 0;
+    margin-bottom: 15px;
 }
 
 #tuto {
@@ -138,6 +140,8 @@ div > a >  img {
 .notImg {
     padding-bottom: 58px;
     height: 101vw !important;
+    background-image: url(img/page3-v4.png);
+    background-size: cover;
 }
 
 .carousel-indicators .active {
@@ -149,5 +153,5 @@ div > a >  img {
 }
 
 .carousel-indicators {
-    bottom: 30px !important;
+    bottom: 60px !important;
 }
